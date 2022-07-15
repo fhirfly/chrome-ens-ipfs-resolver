@@ -1,25 +1,19 @@
-# ENS Resolver 
-![logo](public/favicon.ico)
+# ENS IPFS Resolver 
 
-ENS resolver that can resolve an Ethereum address or ENS name manually or automatically.
+ENS resolver that can resolve an ENS name automatically to an IPFS Content folder.
 
 # Features!
 
   - Ethereum Name Service Lookup (EWHOIS)
-  - Ethereum Name Service Reverse Lookup
-
-
-You can also:
-  - Hover over Ethereum address to get the reverse lookup
+  - IPFS redirect based on Content of EPFS name
 
 
 ### Running
-Just download [ens-resolver.crx](https://github.com/jefflau/ens-chrome-resolver/releases), go to chrome://extensions and enable developer mode then drag-drop the file into the tab to add it to your browser.
 
 ### Build from Source
 
 ```sh
-$ git clone https://github.com/jefflau/ens-chrome-resolver/
+$ git clone https://github.com/fhirfly/chrome-ens-ipfs-resolver/
 $ npm i
 $ npm run build
 ```
